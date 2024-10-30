@@ -15,3 +15,19 @@ Código en Arduino: Envía un mensaje cada dos segundos y responde a comandos es
 Código en Unity: El script envía y recibe datos en cada frame, y se aprendió cómo asociar el SerialController en Unity para lograr una conexión estable.
 Conclusión
 La práctica mostró cómo integrar Unity con Arduino usando hilos y comunicación serial, permitiendo una interacción fluida en tiempo real.
+
+## Preguntas dentro de la unidad:
+- ¿Qué puedes concluir?
+  No es necesario el serial controller mientras la configuración del script esté correcta. 
+  
+- ¿Para qué incluyó esta línea el autor del plugin?
+  
+  Para demostrar mas eficientemente como fiuncionan los hilos secundarios.
+  
+- ¿Cada cuánto se envía la letra A o la Z?
+
+  Se envian cada que las presionamos.
+- ¿Cada cuánto leemos si nos llegaron mensajes desde el arduino?
+
+  cada frame. 
+  
